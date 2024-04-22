@@ -23,7 +23,6 @@ pytest
 
 ## TODO
 - Dockerfile
-- CI/CD
 - Auth support
 
 ## License
