@@ -1,4 +1,3 @@
-# setup the workflows to build the API: python 3.11.8, install dependencies and run
 name: Api-Build
 on:
   pull_request:
