@@ -22,8 +22,10 @@ pytest
 ```
 
 ## TODO
-- Dockerfile
 - Auth support
+- Add more languages
+- Allow specify the language in the endpoint
+- Add variables to the Dockerfile to allow the selection of the languages to install
 
 ## License
 GPL-3.0. See [LICENSE](LICENSE) for more information.
