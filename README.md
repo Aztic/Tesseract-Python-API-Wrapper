@@ -15,6 +15,12 @@ python -m pip install -r requirements.txt
 
 cd app && python main.py
 ```
+You can also directly use the docker image
+```bash
+docker build -t tesseract-python-api .
+docker run -p 8000:8000 tesseract-python-api
+```
+and consume the API at `http://localhost:8000`
 
 ## Test
 ```bash
