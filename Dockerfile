@@ -1,5 +1,5 @@
 FROM ubuntu:22.04 AS setup
-RUN apt update && apt install -y tesseract-ocr && apt install -y curl && apt install -y python3.11 && apt install -y python3.11-venv
+RUN apt update && apt install -y tesseract-ocr curl python3.11 python3.11-venv
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python3.11 get-pip.py
 RUN mkdir -p /content/tessdata
